@@ -1,6 +1,6 @@
 Modified from iSketch template
 
-Modification
+Modifications
 - store all coordinates into json file
 - function to input user id
 - delete last draw gestures
