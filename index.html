@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lib/jquery-ui.min.css" />
+    <title>iSketch</title>
+  </head>
+  <body>
+    <table id="tbMain" border="0">
+      <tbody>
+        <tr id="trToolbar">
+          <td>
+            <input type="text" id="userID" placeholder="Enter User ID">
+            <button id="startBtn" disabled>Start</button>
+          </td>
+        </tr>
+        <tr id="trCanvas">
+          <td>
+            <div id="charMsg" style="margin-top: 20px; margin-bottom: 10px; font-size: 30px; color:Black;"></div>
+            <div id="charCount" style="margin-top: 10px; font-weight: bold; color: #333;"></div>
+            <canvas id="cvsMain"></canvas>
+            <button id="deleteBtn">DELETE LAST GESTURE</button>
+            <button id="finishBtn"> FINISHED </button>
+            <div id="statusMsg" style="margin-top:10px; color:green;"></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="lib/yaml.min.js"></script>
+    <script type="text/javascript" src="src/main.js"></script>
+  </body>
+</html>
